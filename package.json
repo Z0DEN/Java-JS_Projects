@@ -1,0 +1,19 @@
+{
+  "name": "java-js_projects",
+  "version": "0.0.1",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z0DEN/Java-JS_Projects.git"
+  },
+  "author": "BlesK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Z0DEN/Java-JS_Projects/issues"
+  },
+  "homepage": "https://github.com/Z0DEN/Java-JS_Projects#readme"
+}
