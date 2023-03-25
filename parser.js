@@ -16,7 +16,7 @@ function paginator() {
         console.log(linksLength)
         for (i = 0; i < linksLength; i++) {
                 var relLink = dom.window.document.getElementsByClassName('wallpapers__item__wall')[i].getElementsByTagName('img')[0].outerHTML;
-                var ImgLink = relLink.replace('<img src="', `<div id="${i}">`).replace('" class="wallpapers__item__img" itemprop="thumbnail">', '</div>')
+                var ImgLink = relLink.replace('<img src="', `<img id="${i+1}" src= "`).replace('" class="wallpapers__item__img" itemprop="thumbnail">', '">')
                 console.log(ImgLink + "\n")
                 fs.appendFileSync('C:/Users/user_10/GitHub/cloudblesk.site/www/Wallpapers/images.html', ImgLink + "\n", (err) => {
                     if (err) throw err;
